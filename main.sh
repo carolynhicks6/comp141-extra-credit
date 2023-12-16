@@ -15,5 +15,5 @@ mount | head -n 5 > mount.txt
 touch permissions.txt
 chmod a+rwx permissions.txt
 export TESTENV1="test"
-grep -E '[a-zA-Z]{3,}'
+grep -E '[a-zA-Z]{3,}' textfile.txt > regex.txt
 cd ..
